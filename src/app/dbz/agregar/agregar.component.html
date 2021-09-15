@@ -1,0 +1,34 @@
+
+<h3>Agregar</h3>
+<hr>
+
+  <!-- Llama al metodo agregar
+    -->
+<form (ngSubmit)= "agregar()">
+    <input 
+    type="text"
+     placeholder="Personaje" 
+     name="nombre"
+    [(ngModel)]="nuevo.nombre"
+    
+    
+    />
+
+    <!-- two way data binding, emite como recibe , ngModel reemplaza todo [value] = "nuevo.nombre" 
+         (input) = "cambiarNombre($event)"
+    -->
+
+    <input 
+    type="number"
+     placeholder="poder"
+     name= "poder"
+     [(ngModel)]= "nuevo.poder"
+
+    
+    />
+    
+    <!--
+         [value] = "nuevo.poder"
+    -->
+    <button type="submit">Agregar</button>
+</form>

@@ -1,0 +1,19 @@
+<h1>Dragon Ball Z</h1>
+<hr>
+
+<div class= row>
+    <div class="col">
+        <!--[personajes] es la propiedad que recibo del decorador  @Input personajes: Personaje[] = [] de personajes.component.ts-->
+        <app-personajes> </app-personajes>
+      
+    </div>
+
+    <div class="col">
+        <!--[nuevo] es la propiedad que recibo del decorador  @Input nuevo:Personaje de agregar.component.ts-->
+    <app-agregar 
+    [nuevo]="nuevo">
+    
+    </app-agregar>
+
+    </div>
+</div>

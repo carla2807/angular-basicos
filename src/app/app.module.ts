@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 import { HeroesModule } from './heroes/heroes.module';
 import { ContadorComponent } from './contador/contador/contador.component';
 import { ContadorModule } from './contador/contador.module';
-
+import { DbzModule } from './dbz/dbz.module';
 
 
 
@@ -26,6 +26,7 @@ import { ContadorModule } from './contador/contador.module';
     HeroesModule,
     ContadorModule,
     AppRoutingModule,
+    DbzModule
     
   
    

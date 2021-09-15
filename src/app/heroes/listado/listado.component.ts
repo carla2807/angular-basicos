@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class ListadoComponent  {
 
  
-//Defino array string vacio y le asingno
+//Defino array string vacio y le asigno
  heroes: string [] = ['Spiderman','Ironman','Hulk','Thor'];
 
   //Creo propiedad heroeBorrado y lo llamo adentro del metodo borrarHeroe
